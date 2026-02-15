@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Sergio González Diaz | Ing. Ciberseguridad</title>
+    <meta name="description" content="Portafolio profesional de Sergio González, estudiante de Ingeniería en Ciberseguridad y Desarrollador FullStack Python.">
+    <meta name="author" content="Sergio González">
+
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'; 
+        style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+        font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
+        script-src 'self'; 
+        img-src 'self' data:; 
+        frame-ancestors 'none';">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="hero">
+        <div class="container">
+            <h1>Sergio González Diaz</h1>
+            <p class="tagline">Ingeniería en Ciberseguridad | Desarrollador FullStack Python  </p>
+            <div class="social-links">
+                <a href="https://github.com/sergiogonzalez-sgd" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/sergiogonzalezdiaz-devsecops/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sticky-nav">
+        <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Stack Tecnológico</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="about" class="section-padding">
+            <h2><i class="fas fa-user-shield"></i> Perfil Profesional</h2>
+            <div class="about-content">
+                <p>Estudiante de <strong>Ingeniería en Ciberseguridad</strong> en INACAP con base en Valparaíso, Chile. Me especializo en el desarrollo seguro de aplicaciones (DevSecOps) y la automatización de procesos mediante <strong>Python</strong>.</p>
+                <p>Mi enfoque combina la administración de redes y bases de datos con buenas prácticas de seguridad informática. Actualmente estoy desarrollando soluciones de gestión empresarial y billeteras digitales, aplicando principios de POO y diseño seguro.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <h2><i class="fas fa-code"></i> Proyectos Destacados</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <div class="card-header bg-python">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>Gestor Inteligente de Clientes</h3>
+                        <p class="tech-tags">
+                            <span>Python</span>
+                            <span>POO</span>
+                            <span>Gestión de Datos</span>
+                        </p>
+                        <p>Sistema modular para administración de clientes. Implementa lógica de negocio robusta, manejo de excepciones y persistencia de datos segura.</p>
+                        <a href="https://github.com/sergiogonzalez-sgd/Gestor_Inteligente_Clientes" class="btn-secure" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-code-branch"></i> Ver Repositorio
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-header bg-web">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>RichMoney Wallet</h3>
+                        <p class="tech-tags">
+                            <span>Frontend Seguro</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </p>
+                        <p>Simulación de billetera digital (FinTech). Enfocado en la arquitectura de la información y validación de interfaces de usuario.</p>
+                        <a href="https://github.com/sergiogonzalez-sgd/RichMoney-Wallet" class="btn-secure" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-code-branch"></i> Ver Repositorio
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-header bg-data">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>Sistema de Gestión de Datos</h3>
+                        <p class="tech-tags">
+                            <span>Automatización</span>
+                            <span>Backend Logic</span>
+                        </p>
+                        <p>Herramienta diseñada para optimizar flujos de trabajo mediante scripts de procesamiento de datos, reduciendo el error humano.</p>
+                        <a href="https://github.com/sergiogonzalez-sgd/SistemaGestionDatos" class="btn-secure" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-code-branch"></i> Ver Repositorio
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <h2><i class="fas fa-laptop-code"></i> Habilidades Técnicas</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Desarrollo</h3>
+                    <div class="skill-list">
+                        <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-badge"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-badge"><i class="fab fa-html5"></i> HTML5/CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infraestructura & Seguridad</h3>
+                    <div class="skill-list">
+                        <span class="skill-badge"><i class="fas fa-network-wired"></i> Cisco Packet Tracer</span>
+                        <span class="skill-badge"><i class="fab fa-linux"></i> Linux Admin</span>
+                        <span class="skill-badge"><i class="fas fa-shield-alt"></i> Ciberseguridad</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sergio González. Todos los derechos reservados.</p>
+            <p><small>Desarrollado con prácticas de codificación segura.</small></p>
+        </div>
+    </footer>
+</body>
+</html>
